@@ -44,5 +44,6 @@ class budi : public pekerja, public pelajar {
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    budi a(22);
+    return 0;
 }
