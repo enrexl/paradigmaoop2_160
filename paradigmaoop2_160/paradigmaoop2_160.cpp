@@ -14,6 +14,12 @@ public:
     }
 };
 
+class manusia {
+public:
+    string jenisKelamin;
+
+
+};
 int main()
 {
     std::cout << "Hello World!\n";
