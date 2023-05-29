@@ -48,4 +48,5 @@ int main()
 {
     pelajar andi("Andi laksono", "Laki-Laki", "belajarOOP");
     cout << andi.perkenalan();
+    return 0;
 }
