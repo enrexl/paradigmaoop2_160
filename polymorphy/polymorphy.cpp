@@ -16,6 +16,13 @@ public:
     }
 };
 
+class lia :public seseorang {
+public:
+    void pesan() {
+        cout << "Pesan dari Lia" << endl;
+    }
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
