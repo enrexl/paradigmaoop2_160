@@ -25,5 +25,16 @@ public:
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    seseorang* objek;
+    joko a;
+    lia b;
+
+    objek = &a;
+    objek->pesan();
+    objek = &b;
+    objek->pesan();
+    //a.sesorang::pesan();
+    //b.sesorang::pesan();
+   
+    return 0;
 }
