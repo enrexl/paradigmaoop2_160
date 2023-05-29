@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "polymorphy", "polymorphy\po
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "noOverriding", "noOverriding\noOverriding.vcxproj", "{DA71C685-6A81-44D6-926E-41905876635D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "program noPewarisan", "program noPewarisan\program noPewarisan.vcxproj", "{EEA25521-F13C-4763-B76F-F6337C8EA8F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{DA71C685-6A81-44D6-926E-41905876635D}.Release|x64.Build.0 = Release|x64
 		{DA71C685-6A81-44D6-926E-41905876635D}.Release|x86.ActiveCfg = Release|Win32
 		{DA71C685-6A81-44D6-926E-41905876635D}.Release|x86.Build.0 = Release|Win32
+		{EEA25521-F13C-4763-B76F-F6337C8EA8F0}.Debug|x64.ActiveCfg = Debug|x64
+		{EEA25521-F13C-4763-B76F-F6337C8EA8F0}.Debug|x64.Build.0 = Debug|x64
+		{EEA25521-F13C-4763-B76F-F6337C8EA8F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{EEA25521-F13C-4763-B76F-F6337C8EA8F0}.Debug|x86.Build.0 = Debug|Win32
+		{EEA25521-F13C-4763-B76F-F6337C8EA8F0}.Release|x64.ActiveCfg = Release|x64
+		{EEA25521-F13C-4763-B76F-F6337C8EA8F0}.Release|x64.Build.0 = Release|x64
+		{EEA25521-F13C-4763-B76F-F6337C8EA8F0}.Release|x86.ActiveCfg = Release|Win32
+		{EEA25521-F13C-4763-B76F-F6337C8EA8F0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
