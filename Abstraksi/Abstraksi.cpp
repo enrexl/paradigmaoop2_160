@@ -22,5 +22,8 @@ public:
 };
 int main()
 {
-    std::cout << "Hello World!\n";
+    AbstraksiKlas ak;
+    ak.setXY("Yogyakarta", "Kampus");
+    ak.display();
+    return 0;
 }
