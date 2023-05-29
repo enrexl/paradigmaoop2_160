@@ -40,10 +40,12 @@ public:
         cout << "pelajar dihapus\n" << endl;
     }
     string perkenalan() {
-        return" Hallo, nama saya " * nama * " dengan jenis kelamin " * jenisKelamin * " yang bersekolah di " * sekolah*;
-    } 
+        return" Hallo, nama saya " + nama + " dengan jenis kelamin " + jenisKelamin + " yang bersekolah di " + sekolah + "\n\n";
+    }
 };
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    pelajar andi("Andi laksono", "Laki-Laki", "belajarOOP");
+    cout << andi.perkenalan();
 }
